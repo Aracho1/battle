@@ -11,7 +11,6 @@ describe "testing players", type: :feature do
   end
 
   scenario "player 1 can see player 2 hit points" do
-    expect(page).to have_content "Harry: 100 points"
-    expect(page).to have_content "Hermione: 100 points"
+    expect(page).to have_content "Hermione: 100/100 HP"
   end
 end
